@@ -42,6 +42,7 @@ body {
 
 .zoom:hover {
     transform: scale(1.8);
+    z-index: 8;
 }
 
 #home_button {
