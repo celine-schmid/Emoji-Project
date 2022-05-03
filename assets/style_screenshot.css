@@ -1,0 +1,46 @@
+html,
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: none;
+    font-family: basic-sans, sans-serif;
+    padding: 5px;
+    background-color: rgb(193, 193, 193);
+}
+
+.flex-container {
+    margin: -5px;
+    padding: none;
+    list-style: none;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    flex-flow: row;
+}
+
+.flex-item {
+    position: relative;
+    width: 12.5%;
+    height: 12.5%;
+    padding: 5px;
+}
+
+.flex-item::before {
+    content: '';
+    float: left;
+    padding-top: 100%;
+}
+
+.zoom {
+    transition: transform .2s;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.zoom:hover {
+    transform: scale(1.8);
+    z-index: 8;
+}
