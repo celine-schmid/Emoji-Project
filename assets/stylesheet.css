@@ -1,6 +1,8 @@
 body {
     padding: 40px;
+    padding-right: 80px;
     width: 5000px;
+    scroll-behavior: smooth;
 }
 
 h1 {
@@ -34,11 +36,13 @@ a:visited {
 
 .name_buttons {
     display: flex;
-    justify-content: right;
+    justify-content: space-between;
+    width: 300px;
 }
 
 .info {
-    width: 65%;
+    width: 900px;
+    /* position: fixed */
 }
 
 .emoji {
@@ -56,6 +60,14 @@ a:visited {
 .item {
     width: 100%;
     padding-right: 50px;
+}
+
+.celine {
+    padding-left: 80px;
+}
+
+.larissa {
+    padding-left: 80px;
 }
 
 
