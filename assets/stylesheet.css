@@ -53,6 +53,11 @@ a:visited {
     justify-content: row;
 }
 
+.item {
+    width: 100%;
+    padding-right: 50px;
+}
+
 
 /* .name_buttons {
     position: fixed;
