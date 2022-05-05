@@ -43,13 +43,13 @@ body {
 /* Inline-block */
 
 .inline {
-    vertical-align: middle;
+    vertical-align: top;
     overflow-x: scroll;
 }
 
 .inline-item {
     display: inline-block;
-    vertical-align: middle;
+    vertical-align: top;
 }
 
 a {

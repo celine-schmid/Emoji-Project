@@ -54,10 +54,9 @@ body {
 }
 
 a {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 1rem;
     text-decoration: none;
     color: rgb(0, 140, 255);
+    padding: 0px;
 }
 
 a:visited {
