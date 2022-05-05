@@ -15,7 +15,7 @@ body {
 .nav {
     display: flex;
     justify-content: space-between;
-    width: 30%;
+    width: 15%;
 }
 
 .scrolling-wrapper {
